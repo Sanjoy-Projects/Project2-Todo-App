@@ -1,0 +1,62 @@
+.modal{
+    background-color: white;
+    width: 300px;
+    height: 20vh;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 250px;
+    text-align: center;
+    
+}
+
+.editInput{
+    margin-top: 15px;
+    padding: 3px;
+    outline: none;
+    width: 100%;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.modal h4{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    background-color: rgb(62, 7, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editBtn{
+   height: 70px;
+ 
+}
+
+.editBtn button{
+    margin: 20px;
+}
+
+.saveBtn{
+    padding: 4px;
+    width: 80px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background-color: rgb(49, 148, 13);
+    color: white;
+}
+
+.cancelBtn{
+    padding: 4px;
+    width: 80px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background-color: rgb(245, 11, 11);
+    color: white;
+  
+}
