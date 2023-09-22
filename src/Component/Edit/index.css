@@ -61,9 +61,16 @@
   
 }
 
-@media screen and(max-width:490px) {
+@media screen and (max-width:490px) {
     .modal{
-        margin-bottom: 30px;
-        
+        height: 20vh;
+        width: 200px;
+    }
+    .editBtn{
+        height: 70px;
+    }
+    .spanBtn{
+        display: flex;
+        flex-direction: row;
     }
 }
